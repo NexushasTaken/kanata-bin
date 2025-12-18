@@ -1,0 +1,19 @@
+post_install() {
+  cat << EOF
+
+kanata-bin: manual setup required
+  -> Add your user to the input and uinput groups:
+     # usermod -aG input,uinput <username>
+  -> The uinput kernel module must be loaded:
+     # modprobe uinput
+  -> Enable kanata service
+     # systemctl --user enable kanata-bin
+  -> Log out and back in for group changes to take effect.
+
+EOF
+}
+
+post_upgrade() {
+  post_install
+}
+
