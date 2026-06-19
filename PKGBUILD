@@ -1,5 +1,5 @@
 pkgname=kanata-bin
-pkgver=1.10.1
+pkgver=1.11.0
 pkgrel=1
 pkgdesc="Improve keyboard comfort and usability with advanced customization"
 arch=('x86_64')
@@ -10,7 +10,7 @@ install=kanata.install
 options=('!debug' 'strip')
 
 source=(
-  "https://github.com/jtroo/kanata/releases/download/v$pkgver/kanata-linux-binaries-v$pkgver-x64.zip"
+  "https://github.com/jtroo/kanata/releases/download/v$pkgver/linux-binaries-x64.zip"
   "kanata.service"
   "uinput.sysusers"
   "uinput.modules-load"
@@ -19,8 +19,8 @@ source=(
 )
 
 # updpkgsums
-sha256sums=('f755a4bdeb26821893ef954732db34eda845dcecd421c6f06a8b4b280ea38a39'
-            'e2524d855826e645a11cc6871956f41c524dd2b80b370130cbbe2c8f87a2aa02'
+sha256sums=('d9f634afb4c7f078cc2aacf3998fd65b432d4d83296cc48a89f941525459b4e2'
+            'f4eb2545ea3bf7ca99dc4dba5d5092ffbeeda7f946d55a1af62977e84fdb40bf'
             '132b79d2d3c48c8c876864f8165768bb29f1b558c4506946854d44621d5e12a3'
             'b9511609e10ef14e5f238fcba983860078bb3a71d0ccc649f5cdd6d71aed607d'
             '00ea191bc91c06684aa764cb682d18f5b5c759fabd2abfadd08e63b8798ff860'
