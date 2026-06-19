@@ -4,7 +4,9 @@ Documentation=https://github.com/jtroo/kanata
 
 [Service]
 Type=simple
-ExecStart=kanata --cfg %h/.config/kanata/config.kbd
+EnvironmentFile=-%h/.config/kanata/env.conf
+Environment="PORT=1024"
+ExecStart=kanata --cfg %h/.config/kanata/config.kbd --port=${PORT}
 Restart=on-failure
 
 [Install]
