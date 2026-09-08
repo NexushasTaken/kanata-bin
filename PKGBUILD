@@ -1,5 +1,5 @@
 pkgname=kanata-bin
-pkgver=1.11.0
+pkgver=1.12.0
 pkgrel=1
 pkgdesc="Improve keyboard comfort and usability with advanced customization"
 arch=('x86_64')
@@ -19,7 +19,7 @@ source=(
 )
 
 # updpkgsums
-sha256sums=('d9f634afb4c7f078cc2aacf3998fd65b432d4d83296cc48a89f941525459b4e2'
+sha256sums=('0bedd91567c5d7c54679061baadc37e4f83fb71750003999bc1d11f2c9754f36'
             'f4eb2545ea3bf7ca99dc4dba5d5092ffbeeda7f946d55a1af62977e84fdb40bf'
             '132b79d2d3c48c8c876864f8165768bb29f1b558c4506946854d44621d5e12a3'
             'b9511609e10ef14e5f238fcba983860078bb3a71d0ccc649f5cdd6d71aed607d'
